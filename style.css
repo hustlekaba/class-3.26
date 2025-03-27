@@ -1,0 +1,20 @@
+.grid
+{
+    display:grid;
+    grid-template-columns: auto auto 500px;
+    grid-template-rows: 100px 200px 300px 400px;
+    gap: 30px 50px;
+
+}
+
+.grid > div
+{
+    background-color: grey;
+    padding:20px;
+}
+
+.one
+{
+  grid-column-start: 1;
+  grid-column-end: 4;
+}
