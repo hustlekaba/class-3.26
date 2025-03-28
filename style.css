@@ -68,3 +68,14 @@
     padding: 10px;
     margin-bottom:10px;
 }
+
+.header{
+    background-color: rgb(190, 205, 190);
+    padding: 20px;
+}
+
+.header > a {
+    padding: 10px;
+    background-color: rgb(244, 246, 232);
+
+}
