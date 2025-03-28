@@ -1,4 +1,4 @@
-.grid
+/*.grid
 {
     display:grid;
     grid-template-columns: auto 300px 300px;
@@ -17,4 +17,43 @@
 {
   grid-column-start: 1;
   grid-column-end: 4;
+}*/
+
+
+.body
+{
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(224, 214, 202);
+}
+
+.grid
+{
+    display:grid;
+    grid-template-columns: 1fr 260px;
+    grid-template-rows: auto;
+    gap:10px;
+   
+
+}
+
+.grid > div {
+    background-color: green;
+    padding: 20px;
+   
+}
+
+.grid2
+{
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 1fr 200px;
+    gap:5px;
+}
+
+.grid2 > div {
+    background-color: rgb(200, 209, 153);
+    padding: 20px;
+   
 }
