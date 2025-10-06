@@ -1,10 +1,9 @@
 /*.grid
 {
-    display:grid;
-    grid-template-columns: auto 300px 300px;
-    grid-template-rows: 510px 200px 300px 400px;
-    gap: 30px 50px;
-
+display:grid;
+grid-template-columns: auto 300px 300px;
+grid-template-rows: 510px 200px 300px 400px;
+gap: 30px 50px;
 }
 
 .grid > div
